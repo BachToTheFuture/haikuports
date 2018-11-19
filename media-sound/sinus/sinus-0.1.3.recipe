@@ -5,11 +5,12 @@ and durations then creates a wave of those frequencies and durations."
 HOMEPAGE="https://ftp.gwdg.de/pub/linux/misc/blinux/"
 COPYRIGHT="1998 Angus Mackay"
 LICENSE="Public Domain"
-REVISION="1"
+REVISION="2"
 SOURCE_URI="https://ftp.gwdg.de/pub/linux/misc/blinux/sinus-$portVersion.tar.gz"
 CHECKSUM_SHA256="b81961bbc9854efaf3973701814aefca0fa5ec142c3dd1facac5f4eb08816d35"
+PATCHES="sinus-$portVersion.patchset"
 
-ARCHITECTURES="x86_gcc2 !x86_64"
+ARCHITECTURES="x86_gcc2 x86_64"
 
 PROVIDES="
 	sinus = $portVersion
