@@ -1,4 +1,6 @@
-DESCRIPTION="SQL database server."
+SUMMARY="SQL database server"
+DESCRIPTION="MySQL is a popular multiplatform database management server and client \
+system that lets you handle large databases quickly and easily using queries."
 HOMEPAGE="https://www.mysql.com"
 SOURCE_URI="http://mirror.provenscaling.com/mysql/community/source/5.0/mysql-5.0.83.tar.gz"
 CHECKSUM_MD5="051392064a1e32cca5c23a593908b10e"
